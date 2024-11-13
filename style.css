@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fallback color */
+    margin: 0;
+    padding: 20px; /* Padding around the content */
+    background-image: url('./images/img.avif'); /* Set background image */
+    background-size: cover; /* Cover the entire body */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+}
+
+
+.container {
+    max-width: 600px; /* Maximum width of the container */
+    margin-left: 75px; /* Center the container */
+    background: white; /* Background color of the container */
+    padding: 20px; /* Padding inside the container */
+    border: 5px solid black;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    text-align: center;
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+.course input {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 10px; /* Space above the button container */
+}
+
+.button-container button {
+    flex: 1; /* Allow buttons to grow equally */
+    margin-right: 10px; /* Space between buttons */
+    padding: 10px; /* Padding inside buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Remove margin for the last button to avoid extra space */
+.button-container button:last-child {
+    margin-right: 0;
+}
+
+.btnStyle {
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#addCourse {
+    background-color: #4CAF50; /* Green background color */
+}
+
+#calculation {
+    background-color: #008CBA; /* Blue background color */
+}
+
+#reset {
+    background-color: #f44336; /* Red background color */
+}
+
+.header {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below the header */
+    margin-top: -40px;
+}
+
+#home {
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    color: #555; /* Icon color */
+    font-size: 24px; /* Icon size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 10px; /* Space between icon and title */
+    margin-top: -10px;
+}
+
+#home:hover {
+    color: #000; /* Change color on hover */
+}
+
+#undoCourse {
+    background-color: #FFA500; /* Orange background color for Undo button */
+}

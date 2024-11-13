@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.grades-info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #357ab8;
+}
+.gpa-classifications {
+    margin: 20px 0;
+}
+
+.gpa-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.gpa-table th, .gpa-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.gpa-table th {
+    background-color: black;
+    font-weight: bold;
+}
+
+.first-class {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.upper-second-class {
+    background-color: #2196F3; /* Blue */
+    color: white;
+}
+
+.lower-second-class {
+    background-color: #FFC107; /* Amber */
+    color: black;
+}
+
+.pass {
+    background-color: #FF5722; /* Red */
+    color: white;
+}
+
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.first-class .color-box { background-color: #4CAF50; }
+.upper-second-class .color-box { background-color: #2196F3; }
+.lower-second-class .color-box { background-color: #FFC107; }
+.third-class .color-box { background-color: #FF5722; }
+.fail .color-box { background-color: #9E9E9E; }
+
+hr {
+    margin-top: 50px;
+    border-bottom: 3px solid black;
+}
+span {
+    margin-right: 20px;
+}
