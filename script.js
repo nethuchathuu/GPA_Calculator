@@ -84,9 +84,9 @@ document.getElementById('gpaForm').addEventListener('submit', function(event) {
     if (gpa >= 3.70) {
         classification = "First Class";
     } else if (gpa >= 3.30) {
-        classification = "Upper Second Class";
+        classification = "Second Upper Class";
     } else if (gpa >= 3.00) {
-        classification = "Lower Second Class";
+        classification = "Second Lower Class";
     } else if (gpa >= 2.00) {
         classification = "Pass";
     } else {
